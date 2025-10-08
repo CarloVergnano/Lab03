@@ -13,7 +13,7 @@ def menu():
     return input("Scegli un'opzione >> ")
 
 def main():
-    autonoleggio = Autonoleggio("Polito Rent", "Alessandro Visconti")
+    autonoleggio = Autonoleggio("Polito Rent", "Alessandro Visconti", [], [])
 
     while True:
         scelta = menu()
